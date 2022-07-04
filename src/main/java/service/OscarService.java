@@ -34,7 +34,7 @@ public class OscarService {
 
     }
 
-    public void printMaisPremiado2() {
+    public void printMaisPremiado2() { //só testando outro jeito!
         var maisPremiado2 = dadosOscar.stream()
                 .collect(
                         Collectors.groupingBy(ator -> ator.getName(),

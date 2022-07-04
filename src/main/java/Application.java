@@ -28,7 +28,7 @@ public class Application {
         System.out.println();
         oscarService.printMaisPremiado();
         System.out.println();
-        oscarService.printMaisPremiado2();
+        oscarService.printMaisPremiado2(); //teste de outra funcao de stream
 
 
 
